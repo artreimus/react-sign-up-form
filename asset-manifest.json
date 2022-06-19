@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-sign-up-form/static/css/main.66a26a37.css",
-    "main.js": "/react-sign-up-form/static/js/main.b14a66f4.js",
+    "main.js": "/react-sign-up-form/static/js/main.98a57364.js",
     "index.html": "/react-sign-up-form/index.html",
     "main.66a26a37.css.map": "/react-sign-up-form/static/css/main.66a26a37.css.map",
-    "main.b14a66f4.js.map": "/react-sign-up-form/static/js/main.b14a66f4.js.map"
+    "main.98a57364.js.map": "/react-sign-up-form/static/js/main.98a57364.js.map"
   },
   "entrypoints": [
     "static/css/main.66a26a37.css",
-    "static/js/main.b14a66f4.js"
+    "static/js/main.98a57364.js"
   ]
 }
