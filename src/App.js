@@ -96,7 +96,6 @@ export default function App() {
             name="isSubscribed"
             onChange={handleChange}
             checked={formData.isSubscribed}
-            required
           />
           <label htmlFor="okayToEmail">I want to join the newsletter</label>
         </div>
