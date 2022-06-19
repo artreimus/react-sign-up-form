@@ -7,12 +7,11 @@ export default function App() {
       lastName: '',
       email: '',
       isSubscribed: true,
+      employmentStatus: '',
       password: '',
       confirmPassword: '',
     },
   );
-
-  console.log(formData);
 
   function handleChange(event) {
     const {
@@ -70,6 +69,42 @@ export default function App() {
           value={formData.email}
           required
         />
+        <fieldset>
+          <h5 className="legend">Current employment status</h5>
+          <div>
+            <input
+              type="radio"
+              id="unemployed"
+              name="employmentStatus"
+              value="unemployed"
+              checked={formData.employmentStatus === 'unemployed'}
+              onChange={handleChange}
+            />
+            <label htmlFor="unemployed">Unemployed</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="part-time"
+              name="employmentStatus"
+              value="part-time"
+              checked={formData.employmentStatus === 'part-time'}
+              onChange={handleChange}
+            />
+            <label htmlFor="part-time">Part-time</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="full-time"
+              name="employmentStatus"
+              value="full-time"
+              checked={formData.employmentStatus === 'full-time'}
+              onChange={handleChange}
+            />
+            <label htmlFor="full-time">Full-time</label>
+          </div>
+        </fieldset>
         <input
           type="password"
           placeholder="Password"
